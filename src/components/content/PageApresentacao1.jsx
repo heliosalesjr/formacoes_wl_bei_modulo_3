@@ -80,7 +80,7 @@ const PageApresentacao1 = () => {
             <h3 className="font-bold text-blue-900 dark:text-blue-300 text-lg">Sobre o Curso</h3>
           </div>
           <p className="text-slate-700 dark:text-slate-200 text-base leading-relaxed">
-            Desenvolvido pela equipe pedagógica da <span className="font-semibold whitespace-nowrap">BEĨ Educação</span>, em parceria com a equipe de tecnologia da <span className="font-semibold">SME - Secretaria de Educação do Rio de Janeiro</span>, o curso é oferecido no formato <span className="font-semibold text-blue-700 dark:text-blue-400">autoinstrucional</span> — sem tutores para interação ou esclarecimento de dúvidas.
+            Desenvolvido pela equipe pedagógica da <span className="font-semibold whitespace-nowrap">BEĨ Educação</span>,  o curso é oferecido no formato <span className="font-semibold text-blue-700 dark:text-blue-400">autoinstrucional</span> — ou seja, sem tutores para interação ou esclarecimento de dúvidas para os participantes.
           </p>
         </div>
 

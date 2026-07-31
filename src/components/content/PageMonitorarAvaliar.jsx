@@ -21,8 +21,8 @@ const PageMonitorarAvaliar = () => {
   return (
     <div ref={ref} id="monitorar-avaliar" className="scroll-mt-20 p-8 bg-white dark:bg-slate-900 rounded-2xl shadow-2xl mx-auto max-w-5xl space-y-8">
 
-      <h2 className={`${titleFont.className} text-4xl font-bold text-center bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent dark:bg-none dark:text-white`}>
-        Monitorar e Avaliar
+      <h2 className={`${titleFont.className} text-4xl font-bold text-center text-slate-600 dark:bg-none dark:text-white`}>
+        Obetivos do Módulo 3
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
