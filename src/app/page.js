@@ -14,7 +14,7 @@ export default function Modulo3() {
           eyebrow="Curso de Formação"
           title="Módulo 3"
           tag="Módulo 3"
-          subtitle="Este é o curso autoinstrucional da BEĨ Educação sobre a aplicação da coleção Aprendendo a Lidar com Dinheiro"
+          subtitle="Como monitorar e avaliar as atividades e projetos dos estudantes."
         />
         <Modulo3ContentSection />
       </main>
