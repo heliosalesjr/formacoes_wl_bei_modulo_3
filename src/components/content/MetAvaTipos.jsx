@@ -80,17 +80,17 @@ const MetAvaTipos = () => {
           </div>
 
           {/* Estratégias */}
-          <div className="bg-white rounded-lg p-6 shadow-md">
-            <h3 className="text-lg font-bold text-blue-700 mb-4">Conexão com o Programa</h3>
-            <p className="text-slate-700 text-sm mb-4">
+          <div className="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-md">
+            <h3 className="text-lg font-bold text-blue-700 dark:text-blue-400 mb-4">Conexão com o Programa</h3>
+            <p className="text-slate-700 dark:text-slate-200 text-sm mb-4">
               "Diagnóstico do perfil da turma e de seus conhecimentos prévios" no Módulo 1. Ele sugere diversas estratégias, como:
             </p>
-            
+
             <div className="grid gap-4 md:grid-cols-2">
               <div>
                 <div className="flex items-center gap-2 mb-2">
                   <FaUsers className="text-blue-500" />
-                  <span className="font-semibold text-blue-700 text-sm">Para o perfil da turma:</span>
+                  <span className="font-semibold text-blue-700 dark:text-blue-400 text-sm">Para o perfil da turma:</span>
                 </div>
                 <ul className="space-y-1 text-slate-600 dark:text-slate-300 text-sm">
                   <li>• "Jogo de perguntas e respostas"</li>
@@ -99,11 +99,11 @@ const MetAvaTipos = () => {
                   <li>• "A pessoa mais importante da minha vida"</li>
                 </ul>
               </div>
-              
+
               <div>
                 <div className="flex items-center gap-2 mb-2">
                   <FaBook className="text-blue-500" />
-                  <span className="font-semibold text-blue-700 text-sm">Para conhecimentos prévios:</span>
+                  <span className="font-semibold text-blue-700 dark:text-blue-400 text-sm">Para conhecimentos prévios:</span>
                 </div>
                 <ul className="space-y-1 text-slate-600 dark:text-slate-300 text-sm">
                   <li>• "Atividades dos capítulos 1, 2 e 3 do Livro do Estudante"</li>
@@ -157,9 +157,9 @@ const MetAvaTipos = () => {
           </div>
 
           {/* Conexão com o programa */}
-          <div className="bg-white rounded-lg p-6 shadow-md">
-            <h3 className="text-lg font-bold text-green-700 mb-3">Conexão com o Programa</h3>
-            <p className="text-slate-700 text-sm leading-relaxed">
+          <div className="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-md">
+            <h3 className="text-lg font-bold text-green-700 dark:text-green-400 mb-3">Conexão com o Programa</h3>
+            <p className="text-slate-700 dark:text-slate-200 text-sm leading-relaxed">
               Este tipo de avaliação está intrinsecamente ligado ao conceito de <strong>"monitoramento"</strong> que discutimos na seção 3.1. As "verificações e métodos avaliativos" para acompanhar o avanço dos projetos são exemplos de avaliação formativa. O uso do <strong>"Diário de Bordo"</strong> e do <strong>"Padlet"</strong> para registrar o processo e as discussões em sala de aula são ferramentas formativas essenciais.
             </p>
           </div>
@@ -174,7 +174,7 @@ const MetAvaTipos = () => {
             <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-green-500 rounded-full shadow-lg">
               <FaTrophy className="text-white text-2xl" />
             </div>
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-800 to-green-800 bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-800 to-green-800 bg-clip-text text-transparent dark:bg-none dark:text-white">
               Avaliação Somativa
             </h2>
           </div>
@@ -206,9 +206,9 @@ const MetAvaTipos = () => {
           </div>
 
           {/* Conexão com o programa */}
-          <div className="bg-white rounded-lg p-6 shadow-md">
-            <h3 className="text-lg font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent mb-4">Conexão com o Programa</h3>
-            <p className="text-slate-700 text-sm leading-relaxed mb-4">
+          <div className="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-md">
+            <h3 className="text-lg font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent dark:bg-none dark:text-white mb-4">Conexão com o Programa</h3>
+            <p className="text-slate-700 dark:text-slate-200 text-sm leading-relaxed mb-4">
               Embora a ABP valorize o processo, <strong>a avaliação somativa ainda tem seu lugar</strong>. No momento de planejar o ano, é importante o professor incluir a necessidade de um bom <strong>plano de avaliação</strong> que contém <strong>indicadores ou evidências de aprendizagem de acordo com cada objetivo elencado</strong>. Além disso, a <strong>Culminância</strong>, que veremos no Módulo 4, <strong>é um momento somativo</strong>, onde os estudantes apresentam o produto final de seu aprendizado em educação financeira.
             </p>
             
