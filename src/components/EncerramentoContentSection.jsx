@@ -10,8 +10,9 @@ export default function EncerramentoContentSection() {
         <div className="mx-auto max-w-5xl space-y-8">
 
           <FadeInWhenVisible><Mat8 /></FadeInWhenVisible>
-          <FadeInWhenVisible><EncerramentoNesseModuloEu /></FadeInWhenVisible>
+          
           <FadeInWhenVisible><EncerramentoQuiz /></FadeInWhenVisible>
+          <FadeInWhenVisible><EncerramentoNesseModuloEu /></FadeInWhenVisible>
 
         </div>
       </div>
