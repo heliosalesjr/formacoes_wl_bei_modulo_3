@@ -127,8 +127,8 @@ body {
   overflow-x: hidden;
   background: linear-gradient(
     125deg,
-    #d1fae5 0%,
-    #ecfdf5 20%,
+    #ede9fe 0%,
+    #f5f3ff 20%,
     #f8fafc 45%,
     #eff6ff 70%,
     #dbeafe 100%
@@ -140,8 +140,8 @@ body {
 html.dark body {
   background: linear-gradient(
     125deg,
-    #0a6648 0%,
-    #243548 22%,
+    #2e1065 0%,
+    #1e1b4b 22%,
     #243040 50%,
     #223260 72%,
     #2550aa 100%
@@ -206,7 +206,7 @@ html.dark body {
 
 /* Classe utilitária */
 .animated-gradient {
-  background: linear-gradient(270deg, #3b82f6, #1bab50, #3b82f6, #3b82f6);
+  background: linear-gradient(270deg, #3b82f6, #7c3aed, #3b82f6, #7c3aed);
   background-size: 400% 400%;
   animation: movingGradient 17s ease infinite;
 }
