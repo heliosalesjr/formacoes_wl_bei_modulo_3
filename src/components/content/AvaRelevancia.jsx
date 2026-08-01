@@ -44,7 +44,7 @@ const AvaRelevancia = () => {
           </div>
           
           <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
-            É fundamental que o professor <strong>apresente a rubrica aos estudantes</strong>, mesmo em turmas dos anos iniciais, pois esse instrumento contribui significativamente para a <strong>transparência dos objetivos de aprendizagem</strong> e para o desenvolvimento do <strong>autoconhecimento</strong>.
+            É fundamental que o professor <strong>apresente a rubrica aos estudantes</strong>, mesmo em turmas de estudantes mais novos, pois esse instrumento contribui significativamente para a <strong>transparência dos objetivos de aprendizagem</strong> e para o desenvolvimento do <strong>autoconhecimento</strong>.
           </p>
         </div>
 
@@ -88,7 +88,7 @@ const AvaRelevancia = () => {
             <div>
               <h3 className="text-xl font-bold text-green-800 dark:text-green-300 mb-3">Preenchimento pelo Professor</h3>
               <p className="text-slate-700 dark:text-slate-200 leading-relaxed">
-                Considerando que os alunos ainda estão em <strong>processo de desenvolvimento</strong> das habilidades de autorregulação, é o professor quem deve <strong>preencher a rubrica</strong>, interpretando as evidências observadas durante as situações de aprendizagem.
+                Considerando turmas mais novas em que os alunos ainda estão em processo de desenvolvimento das habilidades de autorregulação, o professor pode preencher a rubrica, interpretando as evidências observadas durante as situações de aprendizagem.
               </p>
             </div>
           </div>
