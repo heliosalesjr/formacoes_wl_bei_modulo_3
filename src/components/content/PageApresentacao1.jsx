@@ -31,7 +31,7 @@ const PageApresentacao1 = () => {
       {/* TÍTULO + PARÁGRAFOS + CARROSSEL */}
       <div ref={ref} id="apresentacao-1" className="scroll-mt-20 space-y-6">
         <h2 className={`${titleFont.className} text-4xl font-bold text-center bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent dark:bg-none dark:text-white`}>
-          Apresentação do Módulo
+          Apresentação do Curso
         </h2>
 
         <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
