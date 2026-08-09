@@ -6,23 +6,45 @@ import { useSidebar } from '@/contexts/SidebarContext';
 const navigation = {
   'Módulo 3': {
     path: '/',
-    components: []
+    components: [
+      { id: 'apresentacao-1', title: 'Apresentação do Curso' },
+      { id: 'monitorar-avaliar', title: 'Objetivos do Módulo 3' },
+      { id: 'ao-final', title: 'Ao Final deste Módulo' },
+    ]
   },
   'Monitoramento': {
     path: '/monitoramento',
-    components: []
+    components: [
+      { id: 'o-que-e', title: 'O que é o Monitoramento Pedagógico?' },
+      { id: 'aspectos', title: 'O Monitoramento' },
+      { id: 'monitoramento-ppda', title: 'Monitoramento do Projeto' },
+    ]
   },
   'Métodos Avaliativos': {
     path: '/metodosavaliativos',
-    components: []
+    components: [
+      { id: 'ma-intro', title: 'Avaliação na Aprendizagem Baseada em Projetos' },
+      { id: 'importancia-erro', title: 'A Importância do Erro no Aprendizado' },
+      { id: 'tipos-avaliacao', title: 'Tipos de Avaliação' },
+      { id: 'atividade-pratica', title: 'Reflita: Atividade Prática' },
+    ]
   },
   'Avaliação': {
     path: '/avaliacao',
-    components: []
+    components: [
+      { id: 'avaliacao-intro', title: 'Retomando Registros e Monitoramento' },
+      { id: 'avaliacao-rubrica', title: 'Itens de uma Rubrica Eficaz' },
+      { id: 'avaliacao-beneficios', title: 'Benefícios das Rubricas' },
+      { id: 'relevancia-rubrica', title: 'Relevância da Rubrica Avaliativa' },
+    ]
   },
   'Encerramento': {
     path: '/encerramento',
-    components: []
+    components: [
+      { id: 'encerramento-intro', title: 'Encerrando o Módulo 3' },
+      { id: 'encerramento-quiz', title: 'Quiz: Monitoramento Pedagógico na ABP' },
+      { id: 'what', title: 'Nesse Módulo Eu...' },
+    ]
   },
 };
 
