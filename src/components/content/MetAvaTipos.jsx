@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { useSidebar } from '@/contexts/SidebarContext';
 import React from 'react'
-import { FaSearch,  FaTrophy, FaUsers,  FaBook, FaEye } from 'react-icons/fa';
+import { FaSearch, FaChartLine, FaFlagCheckered, FaUsers, FaBook, FaEye } from 'react-icons/fa';
 
 const MetAvaTipos = () => {
   const ref = useRef();
@@ -123,7 +123,7 @@ const MetAvaTipos = () => {
           {/* Cabeçalho da seção */}
           <div className="flex items-center gap-4">
             <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full shadow-lg">
-              <FaTrophy className="text-white text-2xl" />
+              <FaChartLine className="text-white text-2xl" />
             </div>
             <h2 className="text-3xl font-bold text-green-800 dark:text-green-300">
               Avaliação Formativa
@@ -172,7 +172,7 @@ const MetAvaTipos = () => {
           {/* Cabeçalho da seção */}
           <div className="flex items-center gap-4">
             <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-green-500 rounded-full shadow-lg">
-              <FaTrophy className="text-white text-2xl" />
+              <FaFlagCheckered className="text-white text-2xl" />
             </div>
             <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-800 to-green-800 bg-clip-text text-transparent dark:bg-none dark:text-white">
               Avaliação Somativa
