@@ -2,7 +2,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 
 import { useSidebar } from '@/contexts/SidebarContext';
-import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 const Mat8 = () => {
@@ -52,31 +53,44 @@ const Mat8 = () => {
       <div className="text-left max-w-3xl mx-auto">
         <button
           onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
           className="w-full flex justify-between items-center bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors rounded-lg px-6 py-4 shadow border border-slate-200 dark:border-slate-600 text-slate-800 dark:text-slate-100 font-semibold"
         >
           Acesse aqui as Referências Gerais de nosso conteúdo
-          {isOpen ? (
-            <FaChevronUp className="text-slate-600" />
-          ) : (
+          <motion.span
+            animate={{ rotate: isOpen ? 180 : 0 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+          >
             <FaChevronDown className="text-slate-600" />
-          )}
+          </motion.span>
         </button>
 
-        {isOpen && (
-          <div className="bg-white dark:bg-slate-800 border border-t-0 border-slate-200 dark:border-slate-600 rounded-b-lg px-6 py-4 space-y-4 text-sm text-slate-700 dark:text-slate-300">
-            <p><strong>BACICH, L; MORAN, J.</strong> (Org.) Metodologias ativas para uma educação inovadora: uma abordagem teórico-prática. Porto Alegre: Penso, 2018.</p>
-            <p><strong>BENDER, W., N.</strong> Aprendizagem Baseada em Projetos. Porto Alegre: Penso, 2015.</p>
-            <p><strong>BRASIL.</strong> Ministério da Educação. Base Nacional Comum Curricular. Brasília, 2018.</p>
-            <p>
-              <strong>MOÇO, Anderson.</strong> 14 Perguntas e Respostas sobre Projetos Didáticos. Nova Escola, 2011. <br />
-              Disponível em: <a href="https://novaescola.org.br/conteudo/424/14-perguntas-e-respostas-sobre-projetos-didaticos" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://novaescola.org.br/conteudo/424/14-perguntas-e-respostas-sobre-projetos-didaticos</a>
-            </p>
-            <p>
-              <strong>NAOMI, Aline.</strong> Aprendizagem Baseada em Projetos: entenda o que é e como funciona na prática. Nova Escola, 2021. <br />
-              Disponível em: <a href="https://novaescola.org.br/conteudo/20407/aprendizagem-baseada-em-projetos-entenda-o-que-e-e-como-funciona-na-pratica" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://novaescola.org.br/conteudo/20407/aprendizagem-baseada-em-projetos-entenda-o-que-e-e-como-funciona-na-pratica</a>
-            </p>
-          </div>
-        )}
+        <AnimatePresence initial={false}>
+          {isOpen && (
+            <motion.div
+              key="referencias"
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.4, ease: 'easeInOut' }}
+              className="overflow-hidden"
+            >
+              <div className="bg-white dark:bg-slate-800 border border-t-0 border-slate-200 dark:border-slate-600 rounded-b-lg px-6 py-4 space-y-4 text-sm text-slate-700 dark:text-slate-300">
+                <p><strong>BACICH, L; MORAN, J.</strong> (Org.) Metodologias ativas para uma educação inovadora: uma abordagem teórico-prática. Porto Alegre: Penso, 2018.</p>
+                <p><strong>BENDER, W., N.</strong> Aprendizagem Baseada em Projetos. Porto Alegre: Penso, 2015.</p>
+                <p><strong>BRASIL.</strong> Ministério da Educação. Base Nacional Comum Curricular. Brasília, 2018.</p>
+                <p>
+                  <strong>MOÇO, Anderson.</strong> 14 Perguntas e Respostas sobre Projetos Didáticos. Nova Escola, 2011. <br />
+                  Disponível em: <a href="https://novaescola.org.br/conteudo/424/14-perguntas-e-respostas-sobre-projetos-didaticos" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://novaescola.org.br/conteudo/424/14-perguntas-e-respostas-sobre-projetos-didaticos</a>
+                </p>
+                <p>
+                  <strong>NAOMI, Aline.</strong> Aprendizagem Baseada em Projetos: entenda o que é e como funciona na prática. Nova Escola, 2021. <br />
+                  Disponível em: <a href="https://novaescola.org.br/conteudo/20407/aprendizagem-baseada-em-projetos-entenda-o-que-e-e-como-funciona-na-pratica" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://novaescola.org.br/conteudo/20407/aprendizagem-baseada-em-projetos-entenda-o-que-e-e-como-funciona-na-pratica</a>
+                </p>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
       
     </div>
