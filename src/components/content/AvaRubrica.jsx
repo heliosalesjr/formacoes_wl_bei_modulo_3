@@ -110,22 +110,22 @@ const AvaRubrica = () => {
       {/* Tabela de Rubrica */}
       <div className="overflow-x-auto">
         <div className="min-w-full bg-white dark:bg-slate-900 rounded-xl shadow-lg border border-slate-200 dark:border-slate-700">
-          <table className="min-w-full">
+          <table className="min-w-full border-collapse">
             <thead>
               <tr className="bg-gradient-to-r from-blue-50 to-green-50 dark:from-slate-800 dark:to-slate-800">
-                <th className="px-6 py-4 text-left text-sm font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+                <th className="px-6 py-4 text-left text-sm font-bold text-slate-800 dark:text-slate-100 border border-slate-400 dark:border-slate-500">
                   Aspecto Avaliado
                 </th>
-                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700 bg-red-50 dark:bg-red-950/30">
+                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border border-slate-400 dark:border-slate-500 bg-red-50 dark:bg-red-950/30">
                   Nível 1: Iniciante
                 </th>
-                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700 bg-yellow-50 dark:bg-yellow-950/30">
+                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border border-slate-400 dark:border-slate-500 bg-yellow-50 dark:bg-yellow-950/30">
                   Nível 2: Em desenvolvimento
                 </th>
-                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700 bg-blue-50 dark:bg-blue-950/30">
+                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border border-slate-400 dark:border-slate-500 bg-blue-50 dark:bg-blue-950/30">
                   Nível 3: Proficiente
                 </th>
-                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700 bg-green-50 dark:bg-green-950/30">
+                <th className="px-6 py-4 text-center text-sm font-bold text-slate-800 dark:text-slate-100 border border-slate-400 dark:border-slate-500 bg-green-50 dark:bg-green-950/30">
                   Nível 4: Avançado
                 </th>
               </tr>
@@ -133,19 +133,19 @@ const AvaRubrica = () => {
             <tbody>
               {rubricsData.map((row, index) => (
                 <tr key={index} className="hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors duration-200">
-                  <td className="px-6 py-4 text-sm font-semibold text-slate-800 dark:text-slate-100 border-b border-slate-100 dark:border-slate-700 bg-gradient-to-r from-blue-25 to-green-25 dark:bg-none dark:bg-slate-800">
+                  <td className="px-6 py-4 text-sm font-semibold text-slate-800 dark:text-slate-100 border border-slate-400 dark:border-slate-500 bg-gradient-to-r from-blue-25 to-green-25 dark:bg-none dark:bg-slate-800">
                     {row.aspecto}
                   </td>
-                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border-b border-slate-100 dark:border-slate-700 bg-red-25">
+                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border border-slate-400 dark:border-slate-500 bg-red-25">
                     {row.nivel1}
                   </td>
-                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border-b border-slate-100 dark:border-slate-700 bg-yellow-25">
+                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border border-slate-400 dark:border-slate-500 bg-yellow-25">
                     {row.nivel2}
                   </td>
-                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border-b border-slate-100 dark:border-slate-700 bg-blue-25">
+                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border border-slate-400 dark:border-slate-500 bg-blue-25">
                     {row.nivel3}
                   </td>
-                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border-b border-slate-100 dark:border-slate-700 bg-green-25">
+                  <td className="px-6 py-4 text-sm text-slate-700 dark:text-slate-200 border border-slate-400 dark:border-slate-500 bg-green-25">
                     {row.nivel4}
                   </td>
                 </tr>
