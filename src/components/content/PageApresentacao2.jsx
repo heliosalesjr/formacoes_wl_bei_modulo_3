@@ -44,19 +44,19 @@ const PageApresentacao2 = () => {
           </div>
 
           <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
-            Compreender o conceito e a importância do monitoramento pedagógico na Aprendizagem Baseada em Projetos.
+            Compreender o conceito e a importância do <strong>monitoramento pedagógico</strong> na Aprendizagem Baseada em Projetos.
           </p>
           <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
-            Identificar e aplicar diferentes métodos e tipos de avaliação (diagnóstica, formativa e somativa) no contexto da educação financeira.
+            Identificar e aplicar <strong>diferentes métodos e tipos de avaliação</strong> (diagnóstica, formativa e somativa) no contexto da educação financeira.
           </p>
           <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
-            Utilizar registros e ferramentas digitais, como o Padlet, para um monitoramento e avaliação eficazes dos projetos.
+            Utilizar <strong>registros e ferramentas digitais</strong>, como o Padlet, para um <strong>monitoramento e avaliação</strong> eficazes dos projetos.
           </p>
           <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
-            Elaborar e aplicar rubricas de avaliação para promover clareza e autonomia no processo avaliativo.
+            Elaborar e aplicar <strong>rubricas de avaliação</strong> para promover <strong>clareza e autonomia no processo avaliativo</strong>.
           </p>
           <p className="text-slate-700 dark:text-slate-200 text-lg leading-relaxed">
-            Reconhecer o erro como uma oportunidade de aprendizagem e utilizá-lo para aprimorar o processo avaliativo.
+            Reconhecer o <strong>erro como uma oportunidade de aprendizagem</strong> e utilizá-lo para <strong>aprimorar o processo avaliativo</strong>.
           </p>
         </div>
 

@@ -83,7 +83,7 @@ const MoniDef = () => {
             </h3>
             
             <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-              Observar se os alunos estão cumprindo as tarefas de projeto propostas no livro, e se essas tarefas estão conectadas dentro da ideia de projeto sugerida.
+              Observar se os alunos estão cumprindo as tarefas do projeto propostas, e se essas tarefas estão conectadas dentro da ideia de projeto sugerida. 
             </p>
           </div>
         </div>
